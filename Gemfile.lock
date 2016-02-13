@@ -1,0 +1,12 @@
+GEM
+  specs:
+    jekyll-api (0.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-api
+
+BUNDLED WITH
+   1.11.2
