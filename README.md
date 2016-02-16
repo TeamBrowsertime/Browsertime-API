@@ -4,7 +4,18 @@
 **Only movies are supported now.**  
 Just use the following format to add a movie.  
 
-### Naming conventions
+If you want to add movies, just do a PR to moviedb.md with the following information.
+```
+    torrentlink: magnet:?xt=urn:btih:28C5E48CAFE6CA1FA511D6B30D042F0ED688405A
+    moviename: the_lobster.tt3464902.2015.720p.mp4
+    webhash: 6f903a813189357585123d2afd169b3be5eecc50
+```
+**torrentlink**: is the magnet link of the downloaded movie.
+**moviename**: <a href="#naming-conventions">Read this</a>.
+**webhash**: <a href="#seeding">Read this</a>.
+
+
+#### Naming conventions
 ```
 moviename.imdbid.year.quality.mp4
 ```
@@ -18,20 +29,12 @@ An example of this format:
 ```
 steve_jobs.tt2080374.2015.720p.mp4
 ```
+  
+  
+#### Seeding
+Just go to http://instant.io/ and drag and drop or select the file with the naming convention. Eventually you'll see a hash. That's the **webhash** you need to add.  
 
-
-
-
-When willing to seed a movie just do a PR to the moviedb.md
-#### Movie Format
-    Torrent Link: https://kat.cr/the-lobster-2015-720p-brrip-x264-aac-etrg-t12053399.html
-    Movie Name: the_lobster.tt3464902.2015.720p.mp4
-    Webtorrent Hash: 6f903a813189357585123d2afd169b3be5eecc50
-    
-    Torrent Link: https://kat.cr/steve-jobs-2015-720p-brrip-x264-aac-etrg-t12014709.html
-    Movie Name: steve_jobs.tt2080374.2015.720p.mp4
-    Webtorrent Hash: 6f903a813189357585250d2afd169b3be5eecc50 
-
+**Remember:** keep the tab with instant.io or browsertime running the movie as long open as possible, when you close it the movie will stop being seeded and this project won't last for long.
 
 ## FAQ
 Why do we need naming conventions?  
