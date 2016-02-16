@@ -16,7 +16,7 @@ images:
 - "https://image.tmdb.org/t/p/w185/ahUiUaeOE2lvnOy7srxaUJbbvYv.jpg"
 - "https://image.tmdb.org/t/p/w396/ahUiUaeOE2lvnOy7srxaUJbbvYv.jpg"
 hashes:
-- 6f903a813189357585250d2afd169b3be5eecc50#1080p
+- 0#0
 ---
 {
     "title"           : {{ page.title | jsonify }},
