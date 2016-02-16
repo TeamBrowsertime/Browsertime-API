@@ -5,8 +5,13 @@ title: "The Lobster (2015)"
 title_clean: "The Lobster"
 year: 2015
 rating: 7.4
+duration: 122
 imdb_code: "tt2080374"
+yt_trailer_code: "ufMgQNCXy_M"
 description: "Steve Jobs takes us behind the scenes of the digital revolution, to paint a portrait of the man at its epicenter. The story unfolds backstage at three iconic product launches, ending in 1998 with the unveiling of the iMac."
+genre:
+- "Biography"
+- "Drama"
 images:
 - "https://image.tmdb.org/t/p/w185/ahUiUaeOE2lvnOy7srxaUJbbvYv.jpg"
 - "https://image.tmdb.org/t/p/w396/ahUiUaeOE2lvnOy7srxaUJbbvYv.jpg"
@@ -18,8 +23,12 @@ hashes:
     "title_clean"     : {{ page.title_clean | jsonify }},
     "year"            : {{ page.year }},
     "rating"          : {{ page.rating }},
+    "duration"        : {{ page.duration }},
+    "yt_trailer_code" : {{ page.yt_trailer_code | jsonify}},
     "imdb_code"       : {{ page.imdb_code | jsonify }},
     "description"     : {{ page.description | jsonify }},
+    "genre"           : {{ page.genre | jsonify }},
     "images"          : {{ page.images | jsonify }},
     "hashes"          : {{ page.hashes | jsonify }}
 }
+
