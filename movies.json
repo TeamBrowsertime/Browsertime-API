@@ -3,15 +3,15 @@ layout: null
 ---
 
 [
-{% for post in site.posts %}
-    {
-      "id": "{{ post.id }}",
-      "title"    : "{{ post.title }}",
-      "rating": 6.4,
-      "cover_image": "https://yts.ag/assets/images/movies/goosebumps_2015/large-cover.jpg",
-      "url"     : "{{ post.url }}",
-      "date"     : "{{ post.date | date: "%B %d, %Y" }}"
-    } {% if forloop.last %}{% else %},{% endif %}
-{% endfor %}
+    {% for post in site.posts %}
+        {
+            "id"              : {{ post.movie_id }},
+            "title"           : "{{ post.title }}",
+            "rating"          : 6.4,
+            "cover_image"     : "https://yts.ag/assets/images/movies/goosebumps_2015/large-cover.jpg",
+            "url"             : "{{ post.url }}",
+            "description"     : {{ post.content | strip_html | jsonify }},
+            "hashes"          : {{ post.hashes | jsonify }}
+        } {% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
 ]
-

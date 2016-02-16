@@ -1,7 +1,11 @@
 ---
-layout: post
+layout: null
 title:  "Welcome to Jekyll!"
-date:   2016-02-13 15:23:24 +0100
-categories: jekyll update
-id: 1
+movie_id: 1
+permalink: /movie/:movie_id
+hashes:
+- AH4HHA4HAG4AGSHAH4HA4H5GASDF
+- AHBGAGEFFAG4GSHAH45GFGOASKFG
+description: "afadslfjk askdjfasdj lkjdkflaj laskjflskadj fsalkdjfsda lkjfdsalkfj sldkafjdslkajf lskdjflkdasjfldsjf klsjdkflj sdfljd slafjsdl"
 ---
+{{ page.description | jsonify }}
