@@ -10,7 +10,7 @@ layout: null
             "rating"          : 6.4,
             "cover_image"     : "https://yts.ag/assets/images/movies/goosebumps_2015/large-cover.jpg",
             "url"             : "{{ post.url }}",
-            "description"     : {{ post.content | strip_html | jsonify }},
+            "description"     : {{ post.description | jsonify }},
             "hashes"          : {{ post.hashes | jsonify }}
         } {% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
