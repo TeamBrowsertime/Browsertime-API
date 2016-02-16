@@ -10,9 +10,9 @@ If you want to add movies, just do a PR to moviedb.md with the following informa
     moviename: the_lobster.tt3464902.2015.720p.mp4
     webhash: 6f903a813189357585123d2afd169b3be5eecc50
 ```
-**torrentlink**: is the magnet link of the downloaded movie.
-**moviename**: <a href="#naming-conventions">Read this</a>.
-**webhash**: <a href="#seeding">Read this</a>.
+**torrentlink**: is the magnet link of the downloaded movie.  
+**moviename**: <a href="#naming-conventions">Read this</a>.  
+**webhash**: <a href="#seeding">Read this</a>.  
 
 
 #### Naming conventions
