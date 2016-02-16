@@ -9,7 +9,7 @@ duration: 122
 imdb_code: "tt2080374"
 yt_trailer_code: "ufMgQNCXy_M"
 description: "Steve Jobs takes us behind the scenes of the digital revolution, to paint a portrait of the man at its epicenter. The story unfolds backstage at three iconic product launches, ending in 1998 with the unveiling of the iMac."
-genre:
+genres:
 - "Biography"
 - "Drama"
 images:
@@ -27,7 +27,7 @@ hashes:
     "yt_trailer_code" : {{ page.yt_trailer_code | jsonify}},
     "imdb_code"       : {{ page.imdb_code | jsonify }},
     "description"     : {{ page.description | jsonify }},
-    "genre"           : {{ page.genre | jsonify }},
+    "genres"          : {{ page.genres | jsonify }},
     "images"          : {{ page.images | jsonify }},
     "hashes"          : {{ page.hashes | jsonify }}
 }
