@@ -9,5 +9,4 @@
 title: Browsertime-API
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-
-permalink: pretty
+permalink: /:title/

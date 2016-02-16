@@ -5,13 +5,11 @@ layout: null
 [
     {% for post in site.posts %}
         {
-            "id"              : {{ post.movie_id }},
-            "title"           : "{{ post.title }}",
-            "rating"          : 6.4,
-            "cover_image"     : "https://yts.ag/assets/images/movies/goosebumps_2015/large-cover.jpg",
-            "url"             : "{{ post.url }}",
-            "description"     : {{ post.description | jsonify }},
-            "hashes"          : {{ post.hashes | jsonify }}
+            "title"           : {{ post.title | jsonify }},
+            "title_clean"     : {{ post.title_clean | jsonify }},
+            "rating"          : {{ post.rating }},
+            "url"             : {{ post.url | jsonify }},
+            "images"          : {{ post.images | jsonify }}
         } {% if forloop.last %}{% else %},{% endif %}
     {% endfor %}
 ]
