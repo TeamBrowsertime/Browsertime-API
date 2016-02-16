@@ -8,11 +8,11 @@ Just use the following format to add a movie.
 ```
 moviename.imdbid.year.quality.mp4
 ```
-**moviename:** is alway without capitals and spaces are dashes.
-**imdb ID:** must be a 9 char string that links to the movie on imdb.
-**year:** The release year of the movie.
-**quality:** 480p/720p/1080p (prefered 720p or 1080p).
-**extension:** must be mp4.         
+**moviename:** is alway without capitals and spaces are dashes.  
+**imdb ID:** must be a 9 char string that links to the movie on imdb.  
+**year:** The release year of the movie.  
+**quality:** 480p/720p/1080p (prefered 720p or 1080p).  
+**extension:** must be mp4. 
 
 An example of this format:
 ```
