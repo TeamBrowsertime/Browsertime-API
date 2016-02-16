@@ -34,5 +34,5 @@ When willing to seed a movie just do a PR to the moviedb.md
 
 
 ## FAQ
-Why do we need naming conventions? 
+Why do we need naming conventions?  
 *When the name and the video file stays the same the torrent hash will also stay the same. Even when the movie is totally unseeded. This way we can simply hardcode all the hashes because it will stay the same.*
